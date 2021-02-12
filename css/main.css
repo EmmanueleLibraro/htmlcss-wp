@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* Inizio */
+.header{
+    background: fuchsia;
+    height: 100px;
+}
+
+/* Fase-centrale */
+.central-text{
+    background: gold;
+    height: 400px;
+    margin-top: 10px;
+}
+
+/* Fase-centrale 2 */
+.central-text2{
+    background-color: dodgerblue;
+    height: 400px;
+    margin-top: 10px;
+}
+
+/* Per-float-fix */
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+/* Colonna */
+.colonne{
+    height: 50px;
+    background: lightblue;
+    float: left;
+    margin-left: 25px;
+    width: 30%;
+    height: 330px;
+    margin-top: 10px;
+}
+
+/* Colonna-1 */
+.colonne-1{
+    height: 50px;
+    background: lightblue;
+    float: left;
+    width: 20%;
+    height: 330px;
+    margin-top: 10px;
+}
+
+/* Colonna-2 */
+.colonne-2{
+    height: 50px;
+    background: lightblue;
+    float: left;
+    width: 56%;
+    height: 330px;
+    margin: 1% 2%;
+}
+
+/* Colonna-3 */
+.colonne-3{
+    height: 50px;
+    background: lightblue;
+    float: left;
+    width: 20%;
+    height: 330px;
+    margin-top: 10px;
+}
+
+/* Testo-fase2 */
+.barra1{
+    height: 50px;
+    background: lightblue;
+}
+
+/* Footer */
+footer{
+    background: purple;
+    height: 30px;
+    margin-top: 10px;
+}
