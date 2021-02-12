@@ -47,7 +47,7 @@ h6 {
 .central-text {
     background-image:url("../img/banner.jpg");
     background-size: cover;
-    background-position: center ;
+    background-position: center;
     height: 300px;
     width: 1000px;
     margin-top: 10px;
@@ -60,7 +60,6 @@ h6 {
     padding-left: 90px;
     padding-top: 140px;
     color: #696969;
-
 }
 
 /* Fase-centrale 2 */
@@ -121,13 +120,18 @@ h6 {
 
 /* Testo-fase2 */
 .barra1{
-    height: 50px;
-    background: lightblue;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 20px;
+}
+
+.grandezza-testo{
+    font-size: 16px;
+    color: #696969;
 }
 
 /* Footer */
 footer{
-    background: purple;
+    text-align: center;
     height: 30px;
     margin-top: 10px;
 }
