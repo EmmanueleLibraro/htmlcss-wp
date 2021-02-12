@@ -5,15 +5,20 @@
 }
 
 body{
-    font-family: sans-serif;
+    font-family:'Montserrat',sans-serif;
     width: 1000px;
     margin: 0 auto;
+    font-weight: 100;
 }
 
-/* Inizio */
-.header{
-    /* background: fuchsia; */
-    /* height: 100px; */
+/* Modifica spessore scrittura */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
 }
 
 /* Logo-iniziale */
