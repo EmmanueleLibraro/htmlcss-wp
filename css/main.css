@@ -12,12 +12,29 @@ body{
 
 /* Inizio */
 .header{
-    background: fuchsia;
-    height: 100px;
+    /* background: fuchsia; */
+    /* height: 100px; */
 }
 
+/* Logo-iniziale */
 .logo-inizio{
-    
+    width: 160px;
+}
+
+/* Lista */
+.lista{
+    margin-top: 40px;
+}
+
+.lista li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
+}
+
+.lista li a{
+    text-decoration: none;
+    color: #858585;
 }
 
 /* Fase-centrale */
